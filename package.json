@@ -1,0 +1,20 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "conf": "node ./node_modules/protractor/bin/protractor protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^4.2.1",
+    "cucumber-html-report": "^0.6.5",
+    "protractor": "^5.4.0",
+    "protractor-cucumber-framework": "^6.0.0"
+  }
+}
